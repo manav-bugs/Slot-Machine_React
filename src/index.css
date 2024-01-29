@@ -33,10 +33,50 @@ body{
 .footer{
   background-color: #fff;
   max-width: 40%;
-  height: 50px;
+  padding: 0 10px;
+  /* height: 50px; */
   border-radius: 20px;
   border: 1px solid gray;
   margin: auto;
   position: relative;
   text-align: center;
+}
+
+@media screen and  (max-width: 768px){
+  .heading_style{
+    padding: 15px 0px;
+    text-align: center;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    background-color: silver;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    /* border: 2px solid orangered; */
+    border-radius: 20px;
+  }
+  .footer{
+    background-color: #fff;
+    max-width: 60%;
+    /* height: 130px; */
+    border-radius: 20px;
+    border: 1px solid gray;
+    margin: auto;
+    margin-top: 20px;
+    /* position: relative; */
+    text-align: center;
+
+  }
+  .container{
+    /* border: 2px solid orangered; */
+    background-color: silver;
+    max-width: 60%;
+    margin: auto;
+  }
+  .container h1{
+    text-align: center;
+    font-size: 1rem;
+  }
 }
